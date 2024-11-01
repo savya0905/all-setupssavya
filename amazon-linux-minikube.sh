@@ -3,8 +3,8 @@ systemctl enable docker
 systemctl start docker
 systemctl status docker
 docker --version
-yum install conntrack -y
-yum install git -y
+sudo yum install conntrack -y
+sudo yum install git -y
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 sudo chmod +x /usr/local/bin/minikube
